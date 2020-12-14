@@ -1,0 +1,18 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/11957/CLionProjects/P2181对角线/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_57c1f\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_57c1f.dir\build.make /nologo -L                  CMakeFiles\cmTC_57c1f.dir\build
+Building C object CMakeFiles/cmTC_57c1f.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MIB055~1\2019\ENTERP~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\11957\AppData\Local\Temp\nmF12A.tmp
+testCCompiler.c
+Linking C executable cmTC_57c1f.exe
+	C:\Users\11957\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_57c1f.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MIB055~1\2019\ENTERP~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_57c1f.dir\objects1.rsp @C:\Users\11957\AppData\Local\Temp\nmF1D7.tmp
+LINK Pass 1: command "C:\PROGRA~2\MIB055~1\2019\ENTERP~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_57c1f.dir\objects1.rsp /out:cmTC_57c1f.exe /implib:cmTC_57c1f.lib /pdb:C:\Users\11957\CLionProjects\P2181?????\cmake-build-debug\CMakeFiles\CMakeTmp\cmTC_57c1f.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_57c1f.dir/intermediate.manifest CMakeFiles\cmTC_57c1f.dir/manifest.res" failed (exit code 1201) with the following output:
+LINK : fatal error LNK1201: 写入程序数据库“C:\Users\11957\CLionProjects\P2181?????\cmake-build-debug\CMakeFiles\CMakeTmp\cmTC_57c1f.pdb”时出错；请检查是否是磁盘空间不足、路径无效或权限不够
+NMAKE : fatal error U1077: “C:\Users\11957\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe”: 返回代码“0xffffffff”
+Stop.
+NMAKE : fatal error U1077: “"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"”: 返回代码“0x2”
+Stop.
+
+
+
