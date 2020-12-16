@@ -52,10 +52,10 @@ RM = C:\Users\11957\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.5981.166
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\11957\CLionProjects\luogu_P2615
+CMAKE_SOURCE_DIR = "D:\Git\My repository\Practice-On-luogu\luogu_P2615"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\11957\CLionProjects\luogu_P2615\cmake-build-debug
+CMAKE_BINARY_DIR = "D:\Git\My repository\Practice-On-luogu\luogu_P2615\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -84,9 +84,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\11957\CLionProjects\luogu_P2615\cmake-build-debug\CMakeFiles C:\Users\11957\CLionProjects\luogu_P2615\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Git\My repository\Practice-On-luogu\luogu_P2615\cmake-build-debug\CMakeFiles" "D:\Git\My repository\Practice-On-luogu\luogu_P2615\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\11957\CLionProjects\luogu_P2615\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Git\My repository\Practice-On-luogu\luogu_P2615\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
