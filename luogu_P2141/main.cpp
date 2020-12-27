@@ -1,3 +1,4 @@
+#pragma optimize(2)
 #include <iostream>
 using namespace std;
 int marker[1000][4];
